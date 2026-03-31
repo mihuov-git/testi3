@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="fi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Turun lounaat</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #f6f7f9; color: #1f2937; }
+    .wrap { max-width: 1000px; margin: 0 auto; padding: 24px; }
+    h1 { margin-bottom: 8px; }
+    .meta { color: #6b7280; margin-bottom: 24px; }
+    .grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+    .card { background: white; border-radius: 14px; padding: 18px; box-shadow: 0 4px 14px rgba(0,0,0,0.08); }
+    .card h2 { margin-top: 0; font-size: 1.25rem; }
+    ul { padding-left: 20px; }
+    li { margin-bottom: 8px; }
+    a { color: #0f766e; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Turun lounaat</h1>
+    <div id="updated" class="meta">Ladataan…</div>
+    <div id="restaurants" class="grid"></div>
+  </div>
+
+  <script>
+    async function loadLunches() {
+      const res = await fetch('data/lunches.json', { cache: 'no-store' });
+      const data = await res.json();
+
+      const updated = document.getElementById('updated');
+      const restaurants = document.getElementById('restaurants');
+
+      if (data.updated_at) {
+        const dt = new Date(data.updated_at);
+        updated.textContent = 'Päivitetty: ' + dt.toLocaleString('fi-FI', {
+          timeZone: 'Europe/Helsinki'
+        });
+      } else {
+        updated.textContent = 'Päivitysaikaa ei vielä ole.';
+      }
+
+      restaurants.innerHTML = '';
+      for (const r of data.restaurants) {
+        const card = document.createElement('section');
+        card.className = 'card';
+
+        const title = document.createElement('h2');
+        title.textContent = r.name;
+
+        const link = document.createElement('p');
+        const a = document.createElement('a');
+        a.href = r.source_url || r.url;
+        a.target = '_blank';
+        a.rel = 'noopener noreferrer';
+        a.textContent = 'Avaa lähde';
+        link.appendChild(a);
+
+        const list = document.createElement('ul');
+        for (const item of r.items || []) {
+          const li = document.createElement('li');
+          li.textContent = item;
+          list.appendChild(li);
+        }
+
+        card.appendChild(title);
+        card.appendChild(link);
+        card.appendChild(list);
+        restaurants.appendChild(card);
+      }
+    }
+
+    loadLunches().catch(err => {
+      document.getElementById('updated').textContent = 'Lataus epäonnistui: ' + err;
+    });
+  </script>
+</body>
+</html>

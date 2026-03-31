@@ -1,0 +1,21 @@
+{
+  "updated_at": "",
+  "restaurants": [
+    {
+      "name": "Aitiopaikka",
+      "url": "https://www.frescoravintolat.fi/lounas/aitiopaikan-lounaslista/",
+      "items": ["Ladataan..."]
+    },
+    {
+      "name": "Viides Näyttämö",
+      "url": "https://www.viidesnayttamo.fi/",
+      "source_url": "https://www.viidesnayttamo.fi/?page_id=73",
+      "items": ["Ladataan..."]
+    },
+    {
+      "name": "Grill it! Marina",
+      "url": "https://www.raflaamo.fi/fi/ravintola/turku/grill-it-marina-turku/menu/lounas",
+      "items": ["Ladataan..."]
+    }
+  ]
+}
