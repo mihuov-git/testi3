@@ -1,11 +1,30 @@
 {
-  "updated_at": "2026-04-14T09:05:33.338671+00:00",
+  "updated_at": "2026-04-14T11:42:21.963337+00:00",
   "restaurants": [
     {
       "name": "Aitiopaikka",
       "url": "https://www.frescoravintolat.fi/lounas/aitiopaikan-lounaslista/",
       "items": [
-        "Lounaan haku epäonnistui: HTTPError"
+        "Maanantai",
+        "Smetana-kaalikääryleet L,G, perunamuhennos L,G, puolukkahillo",
+        "Pippuripossua L,G, riisi M,G",
+        "Itämaista kookos-kasviskeittoa M,G",
+        "Tiistai",
+        "Kanaa Choron kastikkeessa L,G, pilahviriisi M,G",
+        "Härkis kasvis-kaalilaatikko L,G, puolukkahillo",
+        "Kermaista lohikeittoa L,G",
+        "Keskiviikko",
+        "Karitsan mureketta timjamikastikkeessa L,G, perunamuhennos L,G",
+        "Paahdettua lohta M,G, remoulademajoneesi M,G, tilliperunat L,G",
+        "Savupaprikakeittoa L,G",
+        "Torstai",
+        "Kanaa kormakastikkeessa L,G basmatiriisi M,G",
+        "Kinkku-ananaspizza L ja tomaatti-mozzarellapizza L",
+        "Jauhelihakeittoa M,G",
+        "Perjantai",
+        "Metsästäjän porsaanpaistia L,G, perunamuhennos L,G",
+        "Perinteiset silakkapihvit L, ruohosipulikermaviili L,G",
+        "Porkkanasosekeittoa L,G"
       ]
     },
     {
@@ -13,7 +32,7 @@
       "url": "https://www.viidesnayttamo.fi/",
       "source_url": "https://www.viidesnayttamo.fi/?page_id=73",
       "items": [
-        "Lounaan haku epäonnistui: HTTPError"
+        "LOUNAS - Viides Näyttämö MENU LOUNAS Varaa Pöytä MENU LOUNAS Varaa Pöytä LOUNAS Lounas arkisin klo 10.30-14.30 Salaattilounas 10,50 € sisältää runsaan salaattipöydän, talon leipää sekä kahvin/teen ja pienen makean. Viikon lautasannos 18,50 € Päivän kalaa, kauden kasviksia ja hollandaisekastiketta L,G sis. salaattipöydän, talon leipää, kahvin/teen ja pienen makean. Kermainen lohikeitto L 12 € sisältää saaristolaisleipää sekä kahvin/teen ja pienen makean Buffetlounas 13,80 € sisältää runsaan salaattipöydän, talon leipää, lämpimät ruoat sekä kahvin/ teen ja pienen makean. Maanantai 13.4. Kanaa tikka masala, kurkumariisiä ja kurkkuraitaa L,G Tofua tikka masala, kurkumariisiä ja kurkkuraitaa Veg,G Tiistai 14.4. Pulled pork BBQ, bataattilohkoja ja aiolia L,G Feta-kasvispihvejä, aurinkokuivattuja tomaatteja ja rucolaa L,G Keskiviikko 15.4. Lindströmin pihvit, kermainen sipulikastike, perunamuusia L,G Halloumipunajuuripihvit ja salsa verde L,G Torstai 16.4. Paneroitua kampelaa, tartarkastiketta ja tillivoi-perunaa L,G Uunibataattia, fetaa ja salsaa L,G Perjantai 17.4. Härän rintaa, tummaa rosmariinikastiketta ja lohkoperunoita L,G Kasvisgnocchipelti ja mozzarellajuustoa L L=laktoositon, G=gluteeniton, M=maidoton, Veg=vegaaninen Kysy henkilökunnalta lisää allergeeneista. Kaikki käyttämämme liha on kotimaista. Pidätämme oikeuden hinnanmuutoksiin. VIIDES NÄYTTÄMÖ Aleksis Kiven aukio Itäinen rantakatu 14 20800 Turku viidesnayttamo@kulttuuriranta.fi 040 574 4169 AUKIOLOAJAT Ma-ti klo 10.30-14.30 Ke-Pe klo 10.30-20 (keittiö klo 19.30 asti) La 15-20 (keittiö klo 19.30 asti) Su suljettu POIKKEUKSET 30.3.-2.4. avoinna 10.30-14.30 3.-6.4. suljettu (pääsiäinen) 1.5. suljettu (Vappu) 14.5. suljettu (Helatorstai) 1.-18.6. avoinna ma-pe klo 10.30-14.30, la-su suljettu 19.6.-26.7. kesälomalla 27.7.-16.8. avoinna ma-pe klo 10.30-14.30, la-su suljettu © 2026 Viides Näyttämö. Bento theme by Satori"
       ]
     },
     {
