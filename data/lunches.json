@@ -1,30 +1,29 @@
 {
-  "updated_at": "2026-04-24T09:57:38.860242+00:00",
+  "updated_at": "2026-04-24T11:45:25.548731+00:00",
   "restaurants": [
     {
       "name": "Aitiopaikka",
       "url": "https://www.frescoravintolat.fi/lounas/aitiopaikan-lounaslista/",
       "items": [
         "Maanantai",
-        "Pasta Carbonara L, parmesan",
-        "Kana Curry M,G, basmatiriisi M,G",
-        "Kermaista bataattikeittoa L,G",
+        "Hawajin kanaa ja bearnaisekastiketta L,G, riisi M,G",
+        "Pasta Caponata M, parmesan",
+        "Thai-kalakeitto M,G",
         "Tiistai",
-        "Karjalanpaistia M,G, perunamuhennos L,G, puolukkahillo",
-        "Uuniperunat M,G, feta-kasvis- ja tonnikalatäyte L,G",
-        "Meksikolaista kanakeittoa M,G",
+        "Makkarapihvit L,G, persikkamajoneesi M,G, perunamuhennos L,G",
+        "Broilerkiusaus L,G, mustaherukkahillo",
+        "Tryffelöityä kukkakaalikeittoa L,G",
         "Keskiviikko",
-        "Kasvis Tortillat L, salsaa M,G ja kermaviiliä L,G",
-        "Graavilohikiusaus L,G, punajuurta",
-        "Riistakeittoa L,G",
+        "Karkkipossua M,G, valkosipuliperunat L,G",
+        "Panko kuorrutettua kalaa L, pestokermaviili L,G, tilliperunat L,G",
+        "Juuressosekeittoa L,G",
         "Torstai",
-        "Olivian kanaa L,G, riisi M,G",
-        "Jauhelihalasagne L",
-        "Palsternakkasosekeittoa L,G",
+        "Wappu buffet:",
+        "Nakkeja, lihapullia, savustettua lohta, paahdettua kanaa,",
+        "perunasalaattia, cole slaw, munan puolikkkaita, marinoituja oliiveja,",
+        "tomaatti-vuohenjuustokeittoa ym.",
         "Perjantai",
-        "Porsaan paistia BBQ-kastikkeessa M,G, kermaperunat L,G",
-        "Pinaattiohukaiset L, puolukkahillo, perunaa L,G",
-        "Kookos-katkarapukeitto M,G"
+        "Hyvää Vappua!"
       ]
     },
     {
