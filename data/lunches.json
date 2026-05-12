@@ -1,11 +1,29 @@
 {
-  "updated_at": "2026-05-12T06:37:38.697033+00:00",
+  "updated_at": "2026-05-12T10:39:38.466997+00:00",
   "restaurants": [
     {
       "name": "Aitiopaikka",
       "url": "https://www.frescoravintolat.fi/lounas/aitiopaikan-lounaslista/",
       "items": [
-        "Lounaan haku epäonnistui: HTTPError"
+        "Maanantai",
+        "Sitruunaista broileria M,G, riisi M,G",
+        "Maksa-pekonikastiketta ja perunamuhennos L,G, puolukkahillo",
+        "Juustoinen kasvissosekeittoa L,G",
+        "Tiistai",
+        "Lohta fenkoli-valkoviinikastikkeessa L,G, tilliperunat L,G",
+        "Kuorrutettua uunimakkaraa L,G, perunamuhennos L,G",
+        "Paahdettua tomaattikeittoa M,G",
+        "Keskiviikko",
+        "Kalkkunaa mustaherukkakastikkeessa M,G, riisi M,G",
+        "Riistakiusaus L,G, puolukkahillo",
+        "Kookos-kasviskeittoa M,G",
+        "Torstai",
+        "Helatorstai",
+        "Ravintola suljettu!",
+        "Perjantai",
+        "Porsaan ulkofilettä madeirakastikkeessa M,G, paahdettua perunaa M,G",
+        "Grillattua broilerin koipea ja maissia M,G, aioli M,G",
+        "Kermaista lohikeittoa L,G"
       ]
     },
     {
